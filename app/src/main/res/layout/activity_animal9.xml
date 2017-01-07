@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_animal9"
     android:layout_width="match_parent"
@@ -11,4 +12,45 @@
     tools:context="rtc.anucha.kamonrat.baringame1.Animal9"
     android:background="@drawable/i9">
 
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms36"
+        android:id="@+id/imageButton441"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageButton440"
+        android:layout_alignStart="@+id/imageButton440" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms33"
+        android:id="@+id/imageButton438"
+        android:layout_marginBottom="156dp"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/imageButton441"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms35"
+        android:id="@+id/imageButton440"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/imageButton441"
+        android:layout_alignLeft="@+id/imageButton439"
+        android:layout_alignStart="@+id/imageButton439"
+        android:layout_marginBottom="12dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms34"
+        android:id="@+id/imageButton439"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/imageButton440"
+        android:layout_alignLeft="@+id/imageButton438"
+        android:layout_alignStart="@+id/imageButton438"
+        android:layout_marginBottom="13dp" />
 </RelativeLayout>

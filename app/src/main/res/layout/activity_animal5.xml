@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_animal5"
     android:layout_width="match_parent"
@@ -11,4 +12,45 @@
     tools:context="rtc.anucha.kamonrat.baringame1.Animal5"
     android:background="@drawable/i5">
 
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms19"
+        android:id="@+id/imageButton39"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/imageButton38"
+        android:layout_alignLeft="@+id/imageButton38"
+        android:layout_alignStart="@+id/imageButton38"
+        android:layout_marginTop="10dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms18"
+        android:id="@+id/imageButton38"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="69dp"
+        android:layout_alignTop="@+id/imageButton37"
+        android:layout_alignLeft="@+id/imageButton37"
+        android:layout_alignStart="@+id/imageButton37" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms20"
+        android:id="@+id/imageButton40"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageButton39"
+        android:layout_alignStart="@+id/imageButton39" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ms17"
+        android:id="@+id/imageButton37"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="149dp"
+        android:layout_above="@+id/imageButton40"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
